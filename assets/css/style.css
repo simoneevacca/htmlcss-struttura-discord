@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+header {
+    height: 50px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    height: 30px;
+    background-color: orange;
+    width: 75%;
+    display: flex;
+
+
+}
+
+.nav {
+    border: 1px dashed black;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.logo {
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.link {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.click_link {
+    display: flex;
+    list-style-type: none;
+}
