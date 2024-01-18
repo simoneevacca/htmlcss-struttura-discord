@@ -16,6 +16,18 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.big_block {
+    background-color: dodgerblue;
+    height: 300px;
+    width: 45%;
+}
+
+.small_block {
+    background-color: pink;
+    height: 300px;
+    width: 30%;
+}
 /* #endregion utility  */
 
 
@@ -87,7 +99,25 @@ nav {
 }
 
 .intro {
-    background-color: pink;
+    background-color: rgb(238, 141, 228);
     width: 50%;
     height: 300px;
 }
+
+.server {
+    background-color: w
+    height: 350px;
+}
+
+.channel {
+    background-color: rgb(201, 201, 201);
+    height: 350px;
+
+}
+
+.comunity {
+    background-color: white;
+    height: 350px;
+}
+
+
