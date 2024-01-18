@@ -6,6 +6,19 @@ body {
 
 /* #endregion general */
 
+/* #region utility  */
+.content {
+    border: 1px dashed black;
+}
+
+.section{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+/* #endregion utility  */
+
+
 /* #region header */
 
 header {
@@ -67,8 +80,14 @@ nav {
 /* #endregion header */
 
 
+
 .introduction {
-    color: rgb(197, 13, 13);
-    /* background-color: blue; */
+    background-color: blue;
+    height: 400px;
 }
 
+.intro {
+    background-color: pink;
+    width: 50%;
+    height: 300px;
+}
