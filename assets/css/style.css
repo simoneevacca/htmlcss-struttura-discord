@@ -1,6 +1,12 @@
+/* #region general */
+
 body {
     margin: 0;
 }
+
+/* #endregion general */
+
+/* #region header */
 
 header {
     height: 50px;
@@ -10,13 +16,13 @@ header {
     align-items: center;
 }
 
+/* #region nav */
+
 nav {
     height: 30px;
     background-color: orange;
     width: 75%;
     display: flex;
-
-
 }
 
 .nav {
@@ -52,3 +58,17 @@ nav {
     display: flex;
     list-style-type: none;
 }
+
+.click_link>li {
+    margin: 0 2px 0 2px;
+}
+
+/* #endregion nav */
+/* #endregion header */
+
+
+.introduction {
+    color: rgb(197, 13, 13);
+    /* background-color: blue; */
+}
+
