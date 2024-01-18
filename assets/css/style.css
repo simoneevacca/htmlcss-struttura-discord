@@ -1,14 +1,18 @@
 /* #region general */
+* {
+    box-sizing: border-box;
+}
 
 body {
     margin: 0;
 }
 
+
 /* #endregion general */
 
 /* #region utility  */
 .content {
-    border: 1px dashed black;
+    border: 3px dashed black;
 }
 
 .section{
@@ -51,7 +55,7 @@ nav {
 }
 
 .nav {
-    border: 1px dashed black;
+    border: 3px dashed black;
     justify-content: center;
     align-items: center;
 
@@ -130,6 +134,24 @@ nav {
     height: 650px;
 }
 
+.main_footer {
+    height: 400px;
+    background-color: rgb(31, 31, 31);
+    border-bottom: 3px solid white;
+}
+
+.big_foot {
+    background-color: brown;
+    width: 23%;
+    height: 350px;
+}
+
+.small_foot {
+    background-color: rgb(1, 157, 157);
+    width: 13%;
+    height: 350px;
+    border: 3px dashed white;
+}
 
 
 
